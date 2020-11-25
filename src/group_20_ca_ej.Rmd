@@ -23,7 +23,9 @@ ggplot(data = ces, aes(x = white_percent, y = ces_3_0_score)) +
   labs(
     x= "Population percent white",
     y= "CalEnviroScreen 3.0 score"
-  )
+  ) +
+  scale_fill_gradient(low = "darkorchid4", high = "magenta") +
+  theme_minimal()
 ```
 
 
