@@ -22,9 +22,10 @@ ggplot(data = ces, aes(x = white_percent, y = ces_3_0_score)) +
   geom_hex() +
   labs(
     x= "Population percent white",
-    y= "CalEnviroScreen 3.0 score"
+    y= "Cumulative pollution burden",
+    title= "Cumulative pollution burden across CA \nby percent white population"
   ) +
-  scale_fill_gradient(low = "darkorchid4", high = "magenta") +
+  scale_fill_gradient(low = "navy", high = "orange") +
   theme_minimal()
 ```
 
