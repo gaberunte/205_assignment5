@@ -29,6 +29,6 @@ ggplot(data = ces, aes(x = white_percent, y = ces_3_0_score)) +
   theme_minimal()
 ```
 
-
+The figure depicts a general trend of cumulative pollution burden (y-axis) against a white population percentage. This trend conveys that as the percentage of white population increases the pollution burden decreases, creating an inverse relationship. It's possible to deduce that other race identities more heavily deal with cumulative pollution burdens than the white population. 
 
 
